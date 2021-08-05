@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Uas1822500023AplikasiPasienCovid-19</string>
+
+    <string-array name="Pilih_Kecamatan">
+        <item>Bukit Intan</item>
+        <item>Taman Sari</item>
+        <item>Gabek</item>
+        <item>Gerunggang</item>
+        <item>Girimaya</item>
+        <item>PangkalBalam</item>
+        <item>Rangkui</item>
+    </string-array>
+
+    <string-array name="Pilih_Kelurahan">
+    <item>Rawa Bangun</item>
+    <item>Gedung Nasional</item>
+    <item>Batin Tikal</item>
+    <item>Opas Indah</item>
+    <item>Kejaksaan</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APLIKASI PENDATAAN PASIEN COVID-19"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang, Admin"
+            android:layout_marginTop="100dp"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/tambahData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="Tambah Data"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/tampilData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tampil Data" />
+
+        <Button
+            android:id="@+id/btnOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keluar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

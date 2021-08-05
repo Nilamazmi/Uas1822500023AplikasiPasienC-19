@@ -1,0 +1,2 @@
+rootProject.name = "Uas1822500023AplikasiPasienCovid-19"
+include ':app'
